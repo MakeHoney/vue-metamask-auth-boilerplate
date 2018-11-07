@@ -7,6 +7,14 @@
     </div>
 </template>
 
+<script>
+    export default {
+        created () {
+            this.$store.dispatch('checkWeb3')
+        }
+    }
+</script>
+
 <style>
     #app {
         font-family: 'Avenir', Helvetica, Arial, sans-serif;

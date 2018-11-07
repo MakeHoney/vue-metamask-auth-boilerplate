@@ -8,9 +8,6 @@
 <script>
     // @ is an alias to /src
     export default {
-        name: 'home',
-        created () {
-            this.$store.dispatch('checkWeb3')
-        }
+        name: 'home'
     }
 </script>
